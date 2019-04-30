@@ -1,0 +1,33 @@
+Command Used to Produce these results:
+python kmeanThree.py -train clean90data.txt -test clean10data.txt -k 8 -it 1000
+
+Top terms per cluster:
+Cluster 0:  app  activity  ecg  new  workout  does  pairing  face  pair  showing
+Cluster 1:  notifications  getting  text  message  heart  don  party  irregular  rhythm  working
+Cluster 2:  cellular  gps  work  india  use  amp  support  does  service  calls
+Cluster 3:  update  os  os5  new  does  latest  ecg  activity  app  trying
+Cluster 4:  working  stopped  activity  ring  raise  os  app  speak  stand  green
+Cluster 5:  nike  calories  run  club  training  vs  showing  workout  edition  install
+Cluster 6:  reset  factory  password  passcode  attempts  goal  pair  cycle  open  indoor
+Cluster 7:  ios  unable  update  12  install  new  latest  make  amp  authenticate
+
+
+Prediction
+[0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 3 0 0 0 2 0 2 0 0 0 2 7 0 0 0
+ 0 0 0 0 4 0 0 0 0 0 0 0 3 0 3 0 0 0 0 1 3 6 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 1 0 7 2 0 0 0 3 0 2 0 0 0 0 0 0 0 0 0 3 3 0 0 5 0 0 0 0 0 0 0 4 4 0 0 0 0
+ 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 7 0 0 0 0 4 0 3 0 0
+ 0 0 4 0 0 0 2 0 0 0 2 0 0 0 0 0 0 4 2 7 4 0 0 4 0 0 0 0 0 0 0 0 0 0 0 4 0
+ 0 4 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 2 0 0 0 0 0 0 0 2 1 0 0 0
+ 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 1 4 0 0 3 7 4 3 0 7 0 0 0
+ 0 3 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 3 3 0 0 3 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0]
+[0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 3 0 0 0 2 0 2 0 0 0 2 7 0 0 0
+ 0 0 0 0 4 0 0 0 0 0 0 0 3 0 3 0 0 0 0 1 3 6 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0
+ 1 0 7 2 0 0 0 3 0 2 0 0 0 0 0 0 0 0 0 3 3 0 0 5 0 0 0 0 0 0 0 4 4 0 0 0 0
+ 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 7 0 0 0 0 4 0 3 0 0
+ 0 0 4 0 0 0 2 0 0 0 2 0 0 0 0 0 0 4 2 7 4 0 0 4 0 0 0 0 0 0 0 0 0 0 0 4 0
+ 0 4 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 2 0 0 0 0 0 0 0 2 1 0 0 0
+ 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 1 4 0 0 3 7 4 3 0 7 0 0 0
+ 0 3 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 3 3 0 0 3 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0
+ 0 0 0 0]

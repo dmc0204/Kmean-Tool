@@ -1,0 +1,17 @@
+Command Used to Produce these results:
+python kmeanThree.py -train clean10data.txt -test clean90data.txt -k 8 -it 1000
+
+Top terms per cluster:
+Cluster 0:  cellular  face  apps  complication  turn  message  time  use  icon  bluetooth
+Cluster 1:  activity  app  working  ecg  new  walkie  talkie  goal  sharing  stand
+Cluster 2:  rate  heart  spikes  resting  settings  monitoring  complication  switch  measuring  wearing
+Cluster 3:  pairing  car  new  trouble  stereo  restore  plus  date  seris  12
+Cluster 4:  update  stuck  os  os5  logo  having  left  way  preparing  uninstall
+Cluster 5:  os  ring  exercise  activity  podcasts  torch  wont  want  syncing  xs
+Cluster 6:  text  unable  messages  pair  paired  timer  mac  communicate  alert  syncing
+Cluster 7:  workout  app  run  swim  exit  disturb  club  comes  accesible  hitting
+
+
+Prediction
+[1 0 1 ... 0 0 0]
+[1 0 1 ... 0 0 0]
